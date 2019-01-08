@@ -1,16 +1,19 @@
-Thanks for proposing or suggesting a talk
+### Title
 
-For talk proposals, please provide the following information:
+Keep it short and use emojis to make it stand out!
 
-- Name of talk (in the title field)
-- Brief summary of the talk content
-- Intended audience - beginners, intermediates, advanced, all levels
-- Length of talk: full-length talk (15 minute) or lightning talk (5 minute)
-- Your Twitter username (if you have one)
-- Link to, or upload of, a photo of yourself that will appear in the meetup slide deck
-  (if you don't specify one, we'll see if we can find one from your social media accounts)
+### Abstract
 
-For talk suggestions, please provide the following information:
+A short description of your talk.
 
-- What you would like to see a talk about
-- What kinds of things you would like to see covered in such a talk
+### About the author
+
+What should the audience know about you? Feel free to include links to your website or social media accounts.
+
+### Intended audience
+
+beginners, intermediates, advanced, all levels?
+
+### Length
+
+45 minutes / 20 minutes / 6 minutes (lightning talk)
