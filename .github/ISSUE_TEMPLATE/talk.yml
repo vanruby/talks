@@ -1,0 +1,77 @@
+name: Submit a talk
+
+description: Share your idea with the VanRuby community.
+
+assignees:
+  - mrleeio
+  - thermistor
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sharing your idea with us!
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: Is this an in-person or remote presentation?
+      options:
+        - In Person
+        - Remote
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Intended Audience
+      multiple: true
+      options:
+        - All levels
+        - Junior
+        - Intermediate
+        - Senior+
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: duration
+    attributes:
+      label: Duration
+      multiple: true
+      options:
+        - 5 minutes (lightning talk)
+        - 20-30 minutes
+        - 45 minutes
+      default: 1
+    validations:
+      required: true
+
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract
+      description: A short description of your talk.
+    validations:
+      required: true
+
+  - type: textarea
+    id: author
+    attributes:
+      label: About the author
+      description: A short description of yourself.
+    validations:
+      required: true
