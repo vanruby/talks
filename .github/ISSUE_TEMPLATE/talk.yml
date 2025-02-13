@@ -6,6 +6,9 @@ assignees:
   - mrleeio
   - thermistor
 
+labels:
+  - Talk
+
 body:
   - type: markdown
     attributes:
