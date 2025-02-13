@@ -1,0 +1,33 @@
+name: Become a sponsor
+
+description: Share your idea with the VanRuby community.
+
+assignees:
+  - mrleeio
+  - thermistor
+
+labels:
+  - Sponsor
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your support!
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: A short description of the support you can offer VanRuby.
+    validations:
+      required: true
