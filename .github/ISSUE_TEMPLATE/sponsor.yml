@@ -2,6 +2,8 @@ name: Become a sponsor
 
 description: Share your idea with the VanRuby community.
 
+title: "[SPONSOR] <Company Name> - <Gold/Silver>"
+
 assignees:
   - mrleeio
   - thermistor
@@ -15,23 +17,81 @@ body:
       value: |
         Thank you for your support!
 
+        ## Gold Sponsor - $3000/year
+        Sponsor for entire year (12 meetups)
+
+        ✅ A thank you and blurb about your company included in all event marketing materials (social, website, etc)
+
+        ✅ A thank you before each meetup and opportunity for your representative to speak for 2 minutes to attendees
+
+        ✅ Your logo on a thank you slide before the presentations
+
+        ✅ Your logo and link to your website from the sponsors page on vanruby.ca website as Gold sponsor
+
+        ## Silver Sponsor - $300/year
+        Sponsor 1 meetup
+
+        ✅ A thank you and blurb about your company included in the sponsored event marketing materials (social, website, etc)
+
+        ✅ A thank you before the sponsored meetup and opportunity for your representative to speak for 2 minutes to attendees
+
+        ✅ Your logo on a thank you slide before the presentation
+
+        ✅ Your logo and link to your website from the sponsors page on vanruby.ca website as Silver sponsor
+
   - type: dropdown
     id: tier
     attributes:
       label: Sponsorship Tier
       description: Choose your sponsorship level
       options:
-        - Gold ($3000/year - 12 meetups)
-        - Silver ($300/year - 1 meetup)
+        - Gold
+        - Silver
     validations:
       required: true
 
   - type: input
+    id: company
+    attributes:
+      label: Company Name
+      description: What is your company name?
+      placeholder: ex. Acme Corporation
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Company Website
+      description: What is your company website URL?
+      placeholder: ex. https://example.com
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Email Address
+      description: What is the best email to reach you?
+      placeholder: ex. contact@example.com
+    validations:
+      required: true
+
+  - type: input
+    id: hiring_website
+    attributes:
+      label: Hiring/Careers Website
+      description: What is your hiring or careers page URL?
+      placeholder: ex. https://example.com/careers
+    validations:
+      required: false
+
+  - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Contact Person
+      description: Who is the main contact person for this sponsorship?
+      placeholder: ex. Jane Smith
     validations:
       required: true
 
